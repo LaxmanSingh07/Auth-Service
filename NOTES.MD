@@ -77,3 +77,26 @@ As soon user is logged out the token is invalid
 
 Everytime user logged in we generate a new token 
 
+
+
+Don't store the row password in the database
+
+Store the hashed password in the database
+
+
+
+Bcrypt is used to hash the password
+
+Bcrypt is a hashing algorithm
+
+
+`Trigger in a database` is a function which is executed when a particular event occurs
+
+
+npm i bcrypt
+
+what is a salt?
+
+salt is a random string which is added to the password before hashing
+
+salt is used to make the password more secure
