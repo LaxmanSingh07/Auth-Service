@@ -21,6 +21,19 @@ class UserRepository{
             throw error;
         }
     }
+
+    async getById(Userid){
+        try{
+            const user=await User.findByPk(Userid,{
+                attributes:['id','email']
+            });
+            return user;
+        }
+        catch(error){
+            console.log("Something went wrong in repo layer",error);
+            throw error;
+        }
+    }
    
 }
 

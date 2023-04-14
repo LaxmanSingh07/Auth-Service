@@ -100,3 +100,8 @@ what is a salt?
 salt is a random string which is added to the password before hashing
 
 salt is used to make the password more secure
+
+
+`what is attribute in a database?`
+
+to select the particular column from the table
